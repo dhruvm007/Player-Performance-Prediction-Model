@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/images/background.png') center center fixed;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+
+/*
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bg-transparent{
+    background-color: rgb(91, 91, 91);
+    opacity: 0.3;
+    border: 3px solid rgb(153, 255, 0);
+    width: 1800px;
+    height: 90vh;
+}
+.dropdown-button{
+    margin: 30px 20px 0px 20px;
+    font-size: 20px;
+}
+.dropdowns{
+    display: flex;
+    justify-content: center;
+}
+.foot-dropdown-content{
+    background-color: white;
+    max-width: 100%;
+}
+.foot-dropdown-content a{
+    text-align: center;
+    color: black;
+}
+.position-dropdown-content a{
+    text-align: center;
+    color: black;
+}
+.dropdown-link{
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 10px;
+} */
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box {
+    padding: 30px;
+    background-color: #28E0A9;
+    opacity: 0.7;
+    border-radius: 20px;
+    box-shadow: #28E0A9 0px 22px 70px 4px;
+    ;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form1 {
+    margin-right: 60px;
+}
+
+.form2 {
+    margin-left: 60px;
+}
+
+.section2 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.form1 div {
+    margin-top: 20px;
+}
+
+.form2 div {
+    margin-top: 20px;
+}
+
+.section2 div {
+    margin-top: 30px;
+}
+
+.PredictButton {
+    background-color: black;
+    color: #28E0A9;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+input[type="range"] {
+    margin-left: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: black;
+    cursor: pointer;
+    width: 10rem;
+    border-radius: 10px;
+}
+/* 
+.radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: #EEE;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    width: 300px;
+    font-size: 14px;
+}
+
+.radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.radio-inputs .radio input {
+    display: none;
+}
+
+.radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    color: rgba(51, 65, 85, 1);
+    transition: all .15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked+.name {
+    background-color: #fff;
+    font-weight: 600;
+} */
